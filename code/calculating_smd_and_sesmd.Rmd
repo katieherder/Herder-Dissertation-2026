@@ -1,0 +1,36 @@
+---
+title: "calculating_smd_and_se_smd"
+output: html_document
+date: "2024-02-23"
+---
+
+## Increasing transparency in how we calculated within-group standardised mean differences and standard errors for those estimates
+
+Like any meta-analysis of this size, these calculations make some necessary assumptions (e.g., r_pre_post was seldom available, so we drew from reviews that reported estimates for similar measures in similar trials; doi:10.1017/S2045796016000809).
+Calculating dose-response curves required arm based meta-analyses, but contrast-based meta-analyses need not make these assumptions.
+We realise those assumptions can be consequential (https://journals.sagepub.com/doi/10.1177/2515245917747646), and that change-scores have known weaknesses (doi:10.1017/S2045796016000809) but preliminary analyses indicated our key findings were not sensitive to those decisions.
+All data and code are available for those who want to re-analyse the data using different assumptions or modelling strategies.
+
+```{r, message=FALSE, error=FALSE, warning=FALSE, results='hide', echo = FALSE}
+
+library(tidyverse)
+library(esc)
+
+d <- readRDS("data/cleaned_deprex.RDS")
+
+chk_d <- d %>%
+  mutate(mean_diff = mean - pre_mean,
+         smd = mean_diff / pre_sd, # Using pre-test sd as less influenced by interventions https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/effects.html#w-group-smd
+         smd = hedges_g(smd, n), # Correcing for small sample bias using Hedge's g https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/effects.html#hedges-g
+         r_t1_t2 = ifelse(reported == "Clinician", .18, .25), # make conservative assumption about r_t1_t2 using data from 10.1017/S2045796016000809
+         se_smd = sqrt((2 * (1 - r_t1_t2) / n + (smd ^ 2) / (2 * n)))) # Calculating the standard error of the within-group SMD https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/effects.html#w-group-smd
+
+#check these calculations reproduce the effect sixes in the raw data on the OSF
+c(identical(round(d$smd,2), round(chk_d$smd,2)),
+  identical(round(d$r_t1_t2,2), round(chk_d$r_t1_t2,2)),
+  identical(round(d$se_smd,2), round(chk_d$se_smd,2)),
+  identical(round(d$mean_diff,2), round(chk_d$mean_diff,2)))
+
+plot(d$smd, chk_d$smd)
+
+```

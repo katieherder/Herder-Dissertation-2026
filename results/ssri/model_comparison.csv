@@ -1,0 +1,5 @@
+"Model","DIC","pD","LPML"
+"A: Shared Emax",994.4,101.4,-152.3
+"B: Agent-specific Emax",1000.8,100.9,-150
+"Ref: Shared Linear",991.7,103.5,-157.4
+"Lumped NMA",553.9,76.5,NA

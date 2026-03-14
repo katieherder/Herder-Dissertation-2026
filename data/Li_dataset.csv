@@ -1,0 +1,35 @@
+Study,Year,Country,Sample_Size_Intervention,Sample_Size_Control,Intervention_Type,Intensity_Code,Intensity_Description,Duration_Minutes,Weeks,Frequency_Per_Week,Total_Sessions,MET_Value,METs_min_per_week,Supervised,SMD_Depression,SE_Depression
+Bargi,2022,Turkey,15,16,walk,M,Moderate,45,4,5,20,4.5,1012.5,supervised,-0.5,0.348
+Cai,2019,China,233,246,Aerobics+dance+running,M,Moderate,60,16,3,48,6,1080,supervised,-0.55,0.094
+Castellote,2024,Spain,65,64,hatha yoga,L,Light,60,12,2,24,3,360,supervised,-0.9,0.182
+de Lira,2023,Brazil,14,7,RT,M,Moderate,60,4,2,8,5,600,supervised,2.08,0.492
+Dechamps,2008,France,11,12,Chen style tai chi,M,Moderate,60,3.5,4,14,4,960,supervised,-2.13,0.509
+Dinani,2019,Iran,32,32,Yang's tai chi,M,Moderate,40,8,3,24,4,480,supervised,-1.17,0.268
+Eather,2018,Australian,27,26,UNI-HIIT,V,Vigorous,10,8,1,8,8,80,supervised,-0.33,0.269
+Falsafi,2016,America,23,23,Hatha yoga,L,Light,75,8,1,8,3,225,supervised,-1.1,0.308
+Gallego,2014,Spain,42,42,sports games,L,Light,60,8,1,8,4,240,supervised,-0.3,0.216
+Ghorbani,2014,Iran,15,15,running+rope skipping,V,Vigorous,60,6,3,18,10,1800,supervised,-0.7,0.359
+Herring,2011,America,10,10,RT,V,Vigorous,47,6,2,12,6,564,supervised,-0.84,0.438
+Hua,2021,China,60,20,tai chi,L,Light,90,12,1,12,3.3,297,supervised,-0.26,0.25
+Hua,2021,China,66,20,yoga,VL,Very Light,90,12,1,12,2,180,supervised,-0.23,0.245
+Ji,2022,China,64,67,running+RT,M,Moderate,45,6,2,12,6,540,supervised,-0.97,0.184
+Ji,2022,China,66,67,basketball,V,Vigorous,60,6,2,12,8,960,supervised,-0.8,0.179
+Kanojia,2013,India,25,25,yoga,L,Light,40,12,6,72,3,720,supervised,-0.81,0.288
+Kim,2012,Korea,7,11,Kouk Sun Do (KSD),VL,Very Light,70,4,3,12,2.5,525,supervised,-1.13,0.469
+Li,2023,China,24,24,wuqinxi+meditation,L,Light,50,12,7,84,3,1050,supervised,-0.38,0.283
+Li,2022,China,13,14,RT,V,Vigorous,50,8,2,16,6,600,supervised,-2.1,0.468
+Ma,2017,China,31,31,basketball,M,Moderate,50,12,3,36,6,900,supervised,-2.35,0.327
+Paolucci,2018,Canada,19,18,MCT,L,Light,27.5,6,3,18,3.5,288.75,supervised,-0.59,0.323
+Philippot,2022,Belgium,13,15,HIIT,V,Vigorous,10,4,3,12,8,240,supervised,-1.04,0.389
+Roth,1987,America,18,18,running,M,Moderate,30,11,3,33,7,630,supervised,0.1,0.322
+Roth,1987,,19,18,Relaxation training,VL,Very Light,30,11,3,33,1.5,135,supervised,0.62,0.325
+Sandre,2023,Canada,25,24,AE+RT,V,Vigorous,45,2,3,6,7,945,supervised,-0.19,0.278
+Smits,2008,America,19,20,running,M,Moderate,25,2,3,6,7,525,supervised,-1.86,0.4
+Sun,2022,China,30,30,tai chi,L,Light,60,16,2,32,3.3,396,supervised,-0.82,0.264
+Xiao,2021,China,31,34,baduanjin,L,Light,90,12,3,36,3.5,945,supervised,-1.22,0.268
+Xiao,2021,China,31,34,basketball,M,Moderate,90,12,3,36,6,1620,supervised,-2.97,0.4
+Yunus,2020,Malaysia,18,18,Kinect Sports,L,Light,30,6,3,18,3.5,315,supervised,-0.75,0.335
+Zhang,2024,China,30,30,tai chi,L,Light,60,8,3,24,3.3,594,supervised,-0.86,0.26
+Zhang,2024,China,30,30,AE,M,Moderate,60,8,3,24,6,1080,supervised,-0.42,0.255
+Zhang JW,2023,China,9,9,tai chi,L,Light,60,8,5,40,3.3,990,supervised,-1.36,0.495
+Zhang YQ,2023,China,34,39,baduanjin,L,Light,60,12,3,36,3.5,630,supervised,-0.4,0.233

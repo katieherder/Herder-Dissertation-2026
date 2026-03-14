@@ -1,0 +1,4 @@
+"model","max_rhat","n_rhat_gt105","n_rhat_gt110","n_params","min_neff","median_neff"
+"Model A: Shared Emax",1.0209,0,0,299,100,3000
+"Model B: Agent-specific Emax",1.0141,0,0,303,180,3000
+"Ref: Shared Linear",1.0097,0,0,298,250,3000

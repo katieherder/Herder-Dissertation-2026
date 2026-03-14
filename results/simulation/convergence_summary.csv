@@ -1,0 +1,5 @@
+"model","n_converged","n_failed","n_total","pct_converged"
+"A",46,0,50,92
+"B",45,0,50,90
+"Ref",49,0,50,98
+"Lumped",44,0,50,88
