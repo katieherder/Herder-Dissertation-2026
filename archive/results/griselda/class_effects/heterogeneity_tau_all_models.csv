@@ -1,0 +1,7 @@
+"Model","tau_median","tau_lower","tau_upper"
+"A: Shared Emax",0.242,0.181,0.306
+"B: Agent-specific Emax",0.219,0.16,0.283
+"C1: Class-common ED50",0.236,0.174,0.299
+"C2: Class-random ED50",0.229,0.172,0.294
+"Ref: Shared Linear",0.251,0.189,0.312
+"Lumped NMA",0.251,0.16,0.354

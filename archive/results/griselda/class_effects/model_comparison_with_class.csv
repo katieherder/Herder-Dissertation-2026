@@ -1,0 +1,6 @@
+"Model","DIC","pD","LPML","Dbar"
+"A: Shared Emax (network ED50)",2340.8,231.5,-359.9,2109.3
+"B: Agent-specific Emax",2336.8,228,-348.3,2108.8
+"C1: Class-common ED50",2331,230.1,-355.2,2100.9
+"C2: Class-random ED50",2316.6,226.4,-343.7,2090.2
+"Ref: Shared Linear",2332,230.6,-358.2,2101.4

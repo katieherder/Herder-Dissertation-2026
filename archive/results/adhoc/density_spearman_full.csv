@@ -1,0 +1,13 @@
+"scenario","model","median_rho","mean_rho","n_reps"
+"density_2x","A",0.9,0.808163265306122,49
+"density_2x","B",0.9,0.802127659574468,47
+"density_2x","Ref",0.9,0.826,50
+"density_2x","Lumped",0.8,0.716326530612245,49
+"density_3x","A",0.9,0.804166666666666,48
+"density_3x","B",0.9,0.8,50
+"density_3x","Ref",0.9,0.826,50
+"density_3x","Lumped",0.9,0.759183673469388,49
+"density_enriched","A",0.9,0.8,47
+"density_enriched","B",0.9,0.8,45
+"density_enriched","Ref",0.8,0.787755102040816,49
+"density_enriched","Lumped",0.7,0.672916666666666,48

@@ -1,0 +1,6 @@
+"agent","true_rank","est_rank_A","est_rank_B","est_rank_Ref","est_rank_Lumped"
+"citalopram",1,2.1,2.12,2.12,2.41
+"escitalopram",3,3.06,3.04,3.04,3.08
+"fluoxetine",5,4.43,4.42,4.39,4.3
+"paroxetine",2,2.18,2.2,2.15,2.11
+"sertraline",4,3.23,3.22,3.3,3.09
